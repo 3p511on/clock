@@ -100,15 +100,3 @@ body {
 .uppercase {
   text-transform: uppercase;
 }
-
-.fs-24 {
-  font-size: 24px;
-}
-
-.fs-60 {
-  font-size: 60px;
-}
-
-.fw-800 {
-  font-weight: 800;
-}
