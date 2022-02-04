@@ -38,14 +38,15 @@ body {
   width: 725px;
 }
 
-.content > .container > .headline {
-  font-size: 74px;
-  font-weight: 700;
-  margin-bottom: 60px;
+.content > .container > span {
+  margin-left: 45px;
+  font-size: 30px;
 }
 
-.content > .container > h1,
-.content > .container > span {
+.content > .container > .headline {
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 60px;
   margin-left: 40px;
 }
 
