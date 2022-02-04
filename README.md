@@ -8,4 +8,4 @@
 
 Результат роботи збережіть у папці «Задача 5». Файл html має мати назву «index.html», всі інші файли (якщо такі будуть) мають містити зрозумілі назви, напр.: «style.css» і т.д.
 
-![Preview](https://github.com/nieopierzony/clock/blob/main/Цифровий%20годинник.png?raw=true)
+[![Preview](https://github.com/nieopierzony/clock/blob/main/Цифровий%20годинник.png?raw=true)](https://nieopierzony.github.io/clock/)
