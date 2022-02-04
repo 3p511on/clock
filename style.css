@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #000;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.content {
+  width: 1280px;
+  height: 720px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(45deg, #d671ff 30%, #a366f3 100%) no-repeat border-box,
+    linear-gradient(180deg, #9a57f2 30%, #9d57f3 100%) no-repeat border-box;
+  background-size: 50% 100%, 50% 100%;
+  background-position: 0 0, 100% 0;
+  background-origin: padding-box, padding-box;
+}
+
+/* Main content */
+.content > .container {
+  width: 725px;
+}
+
+.content > .container > .headline {
+  font-size: 74px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.content > .container > h1,
+.content > .container > span {
+  margin-left: 40px;
+}
+
+/* Clock */
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 110px;
+}
+
+.clock > span {
+  font-size: 80px;
+}
+
+.clock div:first-child {
+  margin-left: 0;
+}
+
+.clock div:last-child {
+  margin-right: 0;
+}
+
+.clock div {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.clock > div > span {
+  font-size: 100px;
+  font-weight: 700;
+  color: #36305e;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  font-size: 33px;
+}
+
+/* Text decorations */
+.background-text {
+  padding: 0 10px;
+  background-color: #fff;
+  color: #36305e;
+  font-weight: 800;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-60 {
+  font-size: 60px;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
